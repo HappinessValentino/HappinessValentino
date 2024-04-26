@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Design</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="about.css">
+
+</head>
+
+<body>
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">About</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="../index.html#home">Home</a>
+            <a href="../index.html#about" class="active">About</a>
+            <a href="../index.html#service">Service</a>
+            <a href="../index.html#portfolio">Portfolio</a>
+            <a href="../index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about2.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+
+            <div class="about-container">
+                <div class="about-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>I'm a <span class="auto-type"></span></h3>
+                    <p>I create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers. They develop the overall layout and production design for applications such as advertisements, brochures,
+                        magazines, and reports. I create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers. They develop the overall layout and production design for applications such
+                        as advertisements, brochures, magazines, and reports. I create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers. They develop the overall layout and production
+                        design for applications such as advertisements, brochures, magazines, and reports. I create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers. They develop the
+                        overall layout and production design for applications such as advertisements, brochures, magazines, and reports.</p>
+                    <a href="../index.html#about" class="btn">Back</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by <span>ANYEBE</span> | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- Typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Frontend Developer", "Digital Marketer", "Web Developer", "Graphic Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 500,
+            loop: true
+        })
+    </script>
+
+    <script src="about.js"></script>
+
+</body>
+
+</html>
